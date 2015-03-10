@@ -6,7 +6,7 @@ nomiDirectory=`cat accounts.txt`
 #Ciclo necessario alla creazine delle directory, il cui nome è salvato nella variabile "nomiDirectory"
 for i in $nomiDirectory
 do
-	`mkdir $i`
+	mkdir $i
 done
 
 
