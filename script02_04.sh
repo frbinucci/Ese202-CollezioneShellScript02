@@ -6,7 +6,7 @@ directory=`cat accounts.txt`
 #Ciclo necessario all'eliminazione delle directory e di tutto il loro eventuale contenuto
 for i in $directory
 do
-	`rm -r $i`
+	rm -r $i
 done
 
 #
